@@ -1,0 +1,79 @@
+#choices {
+    margin-top: 20px;
+  }
+  
+  .choice {
+      
+      cursor: pointer;
+    }
+    
+    #result {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    
+    body {
+        margin: 0px;
+    }
+    
+    .content{
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color:  lightgrey;
+    justify-content: space-between;
+    font-family: 'VT323', sans-serif;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'VT323', sans-serif;
+    font-size: 50px;
+}
+.header, 
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    background-color: gray;
+    font-family: 'VT323', sans-serif;
+    color: blue;
+    
+}
+.header {
+    font-size: 30px;
+    -webkit-text-stroke: 1px yellow;
+}
+button{
+    border: none;
+    padding: 0;
+}
+.zoom {
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 20px
+
+}
+
+.zoom:hover {
+    transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#score {
+    font-size: 40px;
+}
+#result {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-style: dashed;
+}

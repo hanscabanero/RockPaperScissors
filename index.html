@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+  <title>Rock Paper Scissors</title>
 </head>
 <body>
-    
+  <div class="header">
+    <h1>Rock Paper Scissors</h1>
+</div>
+<div class="content">
+<div id="choices">
+  <button class="choice zoom" data-choice="Charmander">
+    <img src="Charmander.png" alt="Charmander">
+  </button>
+  <button class="choice zoom" data-choice="Squirtle">
+    <img src="Squirtle.png" alt="Squirtle">
+  </button>
+  <button class="choice zoom" data-choice="Bulbasaur">
+    <img src="Bulbasaur.png" alt="Bulbasaur">
+  </button>
+</div>
+<br>
+<div id="score" >Player: 0 - Gary: 0</div>
+<div id="result"></div>
+</div>
+  <script src="script.js"></script>
+  <div class="footer">Fake pokemon game not by Nintendo.</div>
 </body>
 </html>
